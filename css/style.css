@@ -1,0 +1,72 @@
+#home {
+    background: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+    ),url("../images/childbackground3.jpg") fixed no-repeat center center;
+    background-size: cover;
+}
+
+.logo {
+  height: 100px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.navbar {
+  min-height: 50px;
+}
+
+.navbar-brand em {
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  color: #bbe1f7 ;
+}
+
+.sub-brand {
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.navbar-default {
+  background-color: #334D99;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #334D99;
+    color: rgb(244, 241, 37);
+    border-bottom: solid #33B3FF 5px;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.img-left {
+  float: right;
+}
+
+.navbar-nav {
+
+}
+
+.intro {
+  padding-right:100px;
+}
+
+footer {
+  background-color: #bbe1f7;
+}
