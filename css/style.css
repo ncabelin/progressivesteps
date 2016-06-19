@@ -1,3 +1,4 @@
+/*
 #home {
     background: linear-gradient(
     rgba(255, 255, 255, 0.8),
@@ -5,10 +6,40 @@
     ),url("../images/childbackground3.jpg") fixed no-repeat center center;
     background-size: cover;
 }
+*/
+body {
+  background: linear-gradient(
+  rgba(255, 255, 255, 0.8),
+  rgba(255, 255, 255, 0.8)
+  ),url(../images/babybeach2.jpg) fixed no-repeat center center;
+  background-size: cover;
+}
+
+#aboutUs, #programs, #news, #contactUs {
+  display: none;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.blue {
+  color: #334D99;
+  font-weight:400;
+}
 
 .logo {
   height: 100px;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -53,10 +84,18 @@ h3 {
 
 .rounded {
   border-radius: 10px;
+  margin:5px;
 }
 
 .img-left {
   float: right;
+  margin: 5px;
+}
+
+.img-right {
+  float: left;
+  display: inline;
+  margin: 5px;
 }
 
 .navbar-nav {
@@ -67,6 +106,86 @@ h3 {
   padding-right:100px;
 }
 
+.modal-title {
+  padding-top:10px;
+}
+
+.modal-body {
+  padding-top:5px;
+  background: linear-gradient(
+  rgba(255, 255, 255, 0.8),
+  rgba(255, 255, 255, 0.8)
+  ),url("../images/boy2.jpg") fixed no-repeat center center;
+  background-size: cover;
+}
+
+.well {
+  background-color: rgba(53,93,62,0.8);
+  color: white;
+  font-weight:200;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.contact-info, .contact-info:hover {
+  text-decoration: underline;
+  color: #E3C855;
+}
+
+.contact-info:hover {
+  color: #e0d49f;
+}
+
+.weblink {
+  text-decoration: none;
+}
+
+.service-list, .service-list-alt {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+td {
+  border: 1px solid #BBE1F7;
+}
+
+.service-list-alt td {
+  border: 1px solid #334D99 !important;
+}
+
+.table-centered {
+  margin: 0 auto;
+  float: none;
+}
+
+.alt-block {
+  background-color: #bbe1f7;
+}
+
 footer {
   background-color: #bbe1f7;
+  padding-top:10px;
+}
+
+.footerLogo {
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width:500px) {
+  .navbar-brand em {
+    letter-spacing: 0px;
+    font-size: 20px;
+  }
+
+  .logo {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .intro {
+    padding-right:10px;
+  }
 }
